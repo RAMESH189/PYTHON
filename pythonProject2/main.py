@@ -1,9 +1,6 @@
-
-for i in range(0,6):
-    for j in range(0,i):
-       print("*",end=" ")
-    print("\n")
-for i in range(0,4):
-    for j in range(i,4):
-        print("*", end=" ")
-    print("\n")
+A=[1,2,3,4,5,6,7,8,9]
+B=[]
+for i in A:
+    if i%2!=0:
+        B.append(i)
+print (B)
